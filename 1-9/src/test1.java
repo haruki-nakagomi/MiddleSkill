@@ -19,12 +19,12 @@ public class test1 {
 		
 //		3.boolean型の変数の値に不正な文字列比較を入れてfalseを出力してください。	
 		
-		boolean isOverTeenage; // boolean型の変数を宣言
-        int yourAge = 18; // あなたは18歳
- 
-        isOverTeenage = (yourAge >= 19); // 【条件式】
- 
-        System.out.println(isOverTeenage);;
+		String msg1 = "Hello";
+	    String msg2 = new String(msg1);
+
+	    System.out.println(msg1 == msg2); 
+		
+		
 		
 	}
 }
