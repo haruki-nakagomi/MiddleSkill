@@ -11,8 +11,7 @@ public class test1 {
 		// strArray2でfor文を回しkとaとoの物だけでstrArray3に格納する(2個目のfor文)
 		// strArray3でfor文を回し「kakao」となるようにstrArray4に格納しstrArray4を出力する。(3個目のfor文)
 
-		List<String> strArray1 = new ArrayList(
-				Arrays.asList("f", "u", "k", "u", "d", "a", "k", "a", "n", "e", "k", "o"));
+		List<String> strArray1 = new ArrayList(Arrays.asList("f", "u", "k", "u", "d", "a", "k", "a", "n", "e", "k", "o"));
 		List<String> strArray2 = new ArrayList<>();
 		List<String> strArray3 = new ArrayList<>();
 		List<String> strArray4 = new ArrayList<>();
