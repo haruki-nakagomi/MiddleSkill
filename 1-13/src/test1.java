@@ -20,20 +20,20 @@ public class test1 {
 		outerLoop:
 		for (int i = 2; i < strArray1.size(); i++) {
 			strArray2.add(strArray1.get(i));
-			for (int j = 0; j < strArray2.size(); j++) {
-				if (strArray2.get(j).equals("k") || strArray2.get(j).equals("a") || strArray2.get(j).equals("o")) {
-					strArray3.add(strArray2.get(j));
-					for (int k = 0; k < strArray3.size(); k++) {
-						if (strArray3.get(k).equals("k") && strArray4.size() == 0) {
-							strArray4.add(strArray3.get(k));
-						} else if (strArray3.get(k).equals("a") && (strArray4.size() == 1 || strArray4.size() == 3)) {
-							strArray4.add(strArray3.get(k));
-						} else if (strArray3.get(k).equals("k") && strArray4.size() == 2) {
-							strArray4.add(strArray3.get(k));
-						} else if (strArray3.get(k).equals("a") && strArray4.size() == 4) {
-							strArray4.add(strArray3.get(k));
-						} else if (strArray3.get(k).equals("o") && strArray4.size() == 5) {
-							strArray4.add(strArray3.get(k));
+			for (int n = 0; n < strArray2.size(); n++) {
+				if (strArray2.get(n).equals("k") || strArray2.get(n).equals("a") || strArray2.get(n).equals("o")) {
+					strArray3.add(strArray2.get(n));
+					for (int t = 0; t < strArray3.size(); t++) {
+						if (strArray3.get(t).equals("k") && strArray4.size() == 0) {
+							strArray4.add(strArray3.get(t));
+						} else if (strArray3.get(t).equals("a") && (strArray4.size() == 1 || strArray4.size() == 3)) {
+							strArray4.add(strArray3.get(t));
+						} else if (strArray3.get(t).equals("k") && strArray4.size() == 2) {
+							strArray4.add(strArray3.get(t));
+						} else if (strArray3.get(t).equals("a") && strArray4.size() == 4) {
+							strArray4.add(strArray3.get(t));
+						} else if (strArray3.get(t).equals("o") && strArray4.size() == 5) {
+							strArray4.add(strArray3.get(t));
 							break outerLoop;
 						}
 					}
