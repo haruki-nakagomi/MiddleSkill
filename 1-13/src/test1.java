@@ -48,7 +48,7 @@ public class test1 {
 		}
 
 		if (strArray4.isEmpty()) {
-			System.out.println("Not found");
+			System.out.println("テスト失敗");
 		} else {
 			System.out.println(strArray4);
 		}
